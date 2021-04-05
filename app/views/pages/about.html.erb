@@ -1,0 +1,57 @@
+<div class="container text-center p-5">
+<%#= HEADER SECTION  %>
+  <div class="header pt-5 pb-5">
+    <h1>Hi, I'm Poppy</h1>
+    <h2>
+      <span id="banner-typed-text"></span>
+    </h2>
+<%#= Font should be - font-family: 'Zilla Slab', serif; but this isn't getting picked up :(%>
+  </div>
+
+<%#= TOP SECTION CLASS  %>
+<div class="top-section d-flex">
+  <div class="left text-left">
+    <h2>About me</h2>
+    <p>The desire to know how web apps are created, integrated and scaled led me to take a coding bootcamp transition from digital marketer to full-stack web developer.</p>
+    <p>Maintaining the skills of communication, coordination and prioritisation honed in my marketing career and combining them with my new found passion for adding flair to websites with JS/Stimulus, I keep the user experience at the forefront of my projects.</p>
+    <p>I am keen to build my skills and learn more in order to help clients define and achieve their digital goals.</p>  
+  </div>
+
+  <div class="right text-center">
+    <h2>My stack</h2>
+
+    <div class="icons">
+      <div class="first-row">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js-square"></i>
+      </div>
+      
+      <div class="second-row">
+        <%= image_tag "ruby.svg", alt: "", width: 50 %>
+        <%= image_tag "rails.svg", alt: "", width: 50 %>
+        <%= image_tag "postgres.svg", alt: "", width: 50 %>
+        <i class="fas fa-database"></i>
+      </div>
+
+      <div class="third-row">
+        <i class="fab fa-bootstrap"></i>
+        <i class="fab fa-sass"></i>    
+        <%= image_tag "ui.svg", alt: "", width: 50 %>
+        <%= image_tag "ux.svg", alt: "", width: 50 %>  
+        <i class="fab fa-figma"></i>   
+      </div>
+      
+      <div class="forth-row">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-git-square"></i>
+        <i class="fab fa-trello"></i>
+        <i class="fab fa-slack"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div> <%#= Closes the container div from line 1 %>

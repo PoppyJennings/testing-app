@@ -1,0 +1,60 @@
+// .icons {
+//   font-size: 40px;
+//   background: linear-gradient(120deg, #6559ae, #ff7159, #6559ae);
+//   background-size: 400% 400%;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   -moz-animation: gradient 3s ease-in-out infinite;
+//   -webkit-animation: gradient 3s ease-in-out infinite;
+//   animation: gradient 3s ease-in-out infinite;
+// }
+
+.icons {
+  background: linear-gradient(120deg, #0e0000, #f8f9fa, #0e0000);
+  background-size: 60px 60px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-animation: gradient 3s ease-in-out infinite;
+  -webkit-animation: gradient 3s ease-in-out infinite;
+  animation: gradient 3s ease-in-out infinite;
+}
+
+i {
+  font-size: 50px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.first-row {
+  display:flex;
+  align-self: center;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
+
+.second-row {
+  display:flex;
+  align-self: center;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
+
+.third-row {
+  display:flex;
+  align-self: center;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
+
+.forth-row {
+  display:flex;
+  align-self: center;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
